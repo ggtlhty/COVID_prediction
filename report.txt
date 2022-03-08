@@ -1,0 +1,6 @@
+Support-vector-machines are popular supervised learning models that perform well on clssification and regression problems. They are able to find a hyperplane that seperates two classes and maximises the gap between the two classes. Other than performing linear classification, we also tried different kernel types that can express input data into higher dimensional feature spaces
+
+Grid Search
+
+We used GridSearchCV from scikit-learn in order to find the optimal parameters for the estimator. This approach checks exhaustively all possible conbinations of parameters and outputs the parameters that maximize the score. 
+A validation set that consists of 15% of the entire data is used here, and the resulting parameters are
